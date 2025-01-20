@@ -1,6 +1,6 @@
-FROM debian:stretch
+FROM debian:stable
 
-RUN apt update && apt install -y \
+RUN apt-get update && apt-get install -y \
   cmake \
   zlib1g-dev \
   build-essential \
